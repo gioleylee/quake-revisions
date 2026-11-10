@@ -1,0 +1,89 @@
+{
+  "month_utc": "2024-01",
+  "event_count": 623,
+  "daily_counts": [
+    49,
+    15,
+    28,
+    29,
+    18,
+    17,
+    22,
+    15,
+    15,
+    11,
+    14,
+    26,
+    13,
+    11,
+    19,
+    15,
+    12,
+    23,
+    19,
+    19,
+    13,
+    39,
+    33,
+    26,
+    26,
+    13,
+    22,
+    20,
+    15,
+    11,
+    15
+  ],
+  "largest_events": [
+    {
+      "event_id": "us6000m0xl",
+      "updated_ms": 1793379675934,
+      "occurred_ms": 1704093009476,
+      "magnitude": 7.5,
+      "place": "2024 Noto Peninsula, Japan Earthquake",
+      "longitude": 137.271,
+      "latitude": 37.4874,
+      "depth_km": 10.0
+    },
+    {
+      "event_id": "us7000lsze",
+      "updated_ms": 1792301744712,
+      "occurred_ms": 1705946944340,
+      "magnitude": 7.0,
+      "place": "128 km WNW of Aykol, China",
+      "longitude": 78.6538,
+      "latitude": 41.2555,
+      "depth_km": 13.0
+    },
+    {
+      "event_id": "us6000m2jp",
+      "updated_ms": 1710615603040,
+      "occurred_ms": 1704746922361,
+      "magnitude": 6.7,
+      "place": "93 km SE of Sarangani, Philippines",
+      "longitude": 126.1575,
+      "latitude": 4.9225,
+      "depth_km": 62.574
+    },
+    {
+      "event_id": "us6000m52p",
+      "updated_ms": 1739206863186,
+      "occurred_ms": 1705786265092,
+      "magnitude": 6.6,
+      "place": "123 km NW of Tarauac\u00e1, Brazil",
+      "longitude": -71.464,
+      "latitude": -7.2879,
+      "depth_km": 607.0
+    },
+    {
+      "event_id": "us7000lui3",
+      "updated_ms": 1711838083040,
+      "occurred_ms": 1706434736538,
+      "magnitude": 6.5,
+      "place": "70 km W of Tarauac\u00e1, Brazil",
+      "longitude": -71.4005,
+      "latitude": -8.236,
+      "depth_km": 621.081
+    }
+  ]
+}
