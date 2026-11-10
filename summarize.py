@@ -3,6 +3,7 @@
 import argparse
 import calendar
 import json
+import sqlite3
 from collections import Counter
 from datetime import UTC, datetime
 from pathlib import Path
@@ -38,6 +39,8 @@ if __name__ == "__main__":
     args = parser.parse_args()
     try:
         month = datetime.strptime(args.month, "%Y-%m")
-    except ValueError as error:
+        rows = events(args.database)
+    except (ValueError, OSError, sqlite3.Error) as error:
+        # A missing or unreadable database is a usage error, not a traceback.
         parser.error(str(error))
-    print(json.dumps(summarize(events(args.database), month.year, month.month), indent=2))
+    print(json.dumps(summarize(rows, month.year, month.month), indent=2))
